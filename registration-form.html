@@ -1,0 +1,85 @@
+<!--Registration Form-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Sonwabiso Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="registration-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sonwabiso Tech School</h1>
+        <img src="Tech.webp" height="250px" width="250px" alt="Sonwabiso Tech School" id="logo">
+        <hr>
+        <h2>About This Course</h2>
+            <p>This course is about web developement</p>
+            <!--Course Schedule-->
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"><h2>Course Schedule</h2></th>
+                    </tr>
+                    <tr class="center">
+                        <th><h3>Day</h3></th>
+                        <th><h3>Time</h3></th>
+                        <th><h3>Topic</h3></th>
+                    </tr>
+                </thead>
+                    <tbody class="left">
+                        <tr>
+                            <td><h4>Monday</h4></td>
+                            <td><h4>08:00 am</h4></td>
+                            <td><h4>Headings</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Wednesday</h4></td>
+                            <td><h4>10:00 am</h4></td>
+                            <td><h4>Tables</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Fiday</h4></td>
+                            <td><h4>14:00 pm</h4></td>
+                            <td><h4>Forms</h4></td>
+                        </tr>
+                    </tbody>
+            </table>
+            <hr>
+        <section id="overlay">
+            <form action="#" method="post">
+                <h1>Register Now</h1>
+                <!--Get User Input-->
+                <label for="name">Enter Your Name</label>
+                <input id="name" type="text" name="name" minlength="3" required>
+                <br>
+                <label for="surname">Enter Your Surname</label>
+                <input id="surname" type="text" name="surname" minlength="3" required>
+                <br>
+                <label for="email">Enter Your Email</label>
+                <input id="email" type="email" name="email" required>
+                <br>
+                <!--Dropdown List-->
+                <label for="courses">Choose a Course</label>
+                <select id="courses" name="courses">
+                    <option value="html">HTML</option>
+                    <option value="c++">C++</option>
+                    <option value="c#">C#</option>
+                </select>
+                <br>
+                <!---Radio Buttons-->
+                <p>Class Type</p>
+                <input type="radio" id="in-person" name="class-type" value="In-Person">
+                <label for="in-person">In-Person</label>
+                <br>
+                <input type="radio" id="online" name="class-type" value="Online">
+                <label for="online">Online</label>
+
+                <hr>
+                <label for="questions">Any Questions?</label>
+                <br>
+                <textarea id="questions" name="questions" rows="4" cols="10"></textarea>
+                <input type="submit" id="submission" value="Submit">
+            </form>
+
+        </section>
+    </body>
+</html>
