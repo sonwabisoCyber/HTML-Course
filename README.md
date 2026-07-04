@@ -10,3 +10,5 @@ Lesson 6 - Semantic HTML(Learned Semantic HTML elements including header, nav, m
 
 ### CSS
 - Lesson 1 - CSS Syntax and Selectors
+- Lesson 2 and 3 - CSS(Still syntax and selectors)
+  
