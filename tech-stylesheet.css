@@ -1,0 +1,33 @@
+body {
+    background-color:darkgrey;
+    background-image: url('./tech-i.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.registration-form {
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.registration, h1, .heading, h5, #contact, #company{
+    color: white;
+}
+
+img {
+    width: 800px;
+    height: 200px;
+}
+
+a {
+    color:cyan;
+}
+
+#submit:hover {
+    background-color: aqua;
+}

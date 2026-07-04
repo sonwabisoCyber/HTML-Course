@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sonwabiso Tech School</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="tech-stylesheet.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>Sonwabiso Tech School</h1>
+            <!--img src="./OIP.webp" class="tech-image"-->
+            <nav>
+                <a href="#company">Company</a>
+                <br>
+                <a href="#contact">Contact</a>
+            </nav>
+            <br>
+            <p class="heading">Building Future Software developers, Cybersecurity analysts, Software Engineers, IT Technician</p>
+            <br>
+            <h5><em>The focus is buidling future leaders in Tech</em></h5>
+            <hr>
+        </div>
+        <div class="registration">
+            <p class="registration-form"><strong>Registration Form. Please Fill in the details.</strong></p>
+            <form action="sonwabiso-tech-school.html" method="get">
+                <label for="name">Enter Your Name: </label>
+                <br>
+                <input id="name" type="text" required min="2">
+                <br>
+                <label for="surname">Enter Your Surname: </label>
+                <br>
+                <input id="surname" type="text" required min="2">
+                <br>
+                <label for="email">Enter Your Email: </label>
+                <br>
+                <input id="email" type="email" required>
+                <br>
+                <label for="adress">Enter Your adress</label>
+                <br>
+                <input id="adress" type="text" required>
+                <br>
+                <label for="register">Choose the Course to study: </label>
+                <br>
+                <select>
+                    <option value="choose-course" id="choose">---Choose Course---</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="software-developer">Software Developer</option>
+                    <option value="it-Technician">IT Technician</option>
+                    <option value="software-engineerieng">Software Engineerieng</option>
+                </select>
+                <br>
+                <section class="radio-buttons">
+                    <p>Contact or Distance Learning?</p>
+                    <input type="radio" name="type" id="distance" value="distance">
+                    <label for="distance">Distance</label>
+                    <br>
+                    <input type="radio" name="type" id="contact" value="contact">
+                    <label for="contact">Contact</label>
+                    <br>
+                    <br>
+                    <input id="submit" type="submit" value="Register">
+                </section>
+            </form>
+        </div>
+        <footer>
+            <div id="contact">
+                <p>Contact us at 033 678 7899</p>
+                <p>Email us at sonwabiso@gmail.com</p>
+                <p>Our address: 32 Fortuna Avenue Durban</p>
+            </div>
+            <div id="company">
+                <p>Sonwabiso Tech Academy is a modern institution dedicated to empowering 
+                    the next generation of software engineers and cybersecurity professionals. Founded with a passion for technology and innovation, 
+                    our academy offers hands-on courses in web development, programming, and digital security. 
+                    We believe that great developers are not born, they are built through dedication, practice, and the right guidance.
+                     Whether you are a complete beginner or looking to sharpen your existing skills, Sonwabiso Tech Academy is the place where your tech journey begins.
+                </p>
+                
+            </div>
+        </footer>
+    </body>
+</html>
