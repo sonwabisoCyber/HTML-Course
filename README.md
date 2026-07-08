@@ -11,4 +11,4 @@ Lesson 6 - Semantic HTML(Learned Semantic HTML elements including header, nav, m
 ### CSS
 - Lesson 1 - CSS Syntax and Selectors
 - Lesson 2 and 3 - CSS(Still syntax and selectors)
-  
+- Lesson 4 - The Box Model. Learned the CSS box model including height, width, padding, border, margin, overflow and visibility. Covered how vertical margins collapse and how margin: 0 auto centres elements. 
