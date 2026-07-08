@@ -1,0 +1,167 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+}
+
+/* Header */
+header {
+    background-color: #0a192f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+}
+
+/* Profile Image */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin: 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Nav */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #64ffda;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Name */
+h2 {
+    text-align: center;
+    color: #0a192f;
+    font-size: 28px;
+    margin: 25px 0 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Software Engineer | Cybersecurity */
+h2 + p {
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.engineer {
+    text-align: center;
+}
+
+/* HR Lines */
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 15px auto;
+    max-width: 900px;
+}
+
+/* Section Headings */
+h3 {
+    color: #0a192f;
+    font-size: 22px;
+    border-left: 4px solid #64ffda;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: #0a192f;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* About Me */
+#about-me {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* My Work */
+#my-work {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Project Images Container */
+.demo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+/* Project Images */
+.open, .reg, .reg-2, .rep, .sta {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+}
+
+/* Footer */
+footer {
+    background-color: #0a192f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#contact-details {
+    color: white;
+    background-color: #666666;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
