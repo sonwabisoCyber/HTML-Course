@@ -1,0 +1,180 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#222;
+}
+
+/* Header */
+
+.portal{
+    background:#0056b3;
+    color:white;
+    text-align:center;
+    padding:18px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.portal h2{
+    font-size:30px;
+}
+
+/* Main */
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h1{
+    text-align:center;
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:24px;
+    color:#555;
+    margin-bottom:60px;
+}
+
+/* Cards */
+
+.my-form{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.reg{
+
+    width:360px;
+    height:450px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+    padding:35px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.reg:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+}
+
+/* Images */
+
+.logos{
+
+    width:100px;
+    height:100px;
+
+    object-fit:contain;
+
+    margin:0 auto 15px;
+
+}
+
+/* Heading */
+
+.reg h3{
+
+    font-size:32px;
+
+    color:#0056b3;
+
+}
+
+/* Paragraph */
+
+.reg p{
+
+    font-size:19px;
+
+    line-height:1.7;
+
+    color:#444;
+
+}
+
+/* Button */
+
+.btn{
+
+    display:inline-block;
+
+    padding:14px 20px;
+
+    background:#0056b3;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#003d80;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.my-form{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+h1{
+
+font-size:45px;
+
+}
+
+.subtitle{
+
+font-size:20px;
+
+}
+
+}

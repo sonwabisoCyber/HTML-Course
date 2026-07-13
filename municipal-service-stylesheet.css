@@ -1,0 +1,154 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:url("background-photo.png") center center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:40px;
+}
+
+/* Main Container */
+.reg-form{
+    width:1100px;
+    height:650px;
+    background:white;
+    display:flex;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+/* LEFT SIDE */
+.about{
+    width:50%;
+    background:linear-gradient(180deg,#2cb5ff,#0f82ff);
+    color:white;
+    padding:45px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.about img{
+    width:150px;
+    margin-bottom:25px;
+}
+
+.about h3{
+    font-size:38px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.about p{
+    font-size:19px;
+    line-height:1.8;
+}
+
+/* RIGHT SIDE */
+.user-login{
+    width:50%;
+    padding:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.user-login h2{
+    color:#0f82ff;
+    font-size:50px;
+    margin-bottom:35px;
+}
+
+.user-login label{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.user-login input,
+.user-login select{
+    width:100%;
+    padding:15px;
+    font-size:17px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    margin-bottom:20px;
+    outline:none;
+}
+
+.user-login input:focus,
+.user-login select:focus{
+    border:1px solid #0f82ff;
+}
+
+/* Login Button */
+#login-button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#0056b3;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#login-button:hover{
+    background:#003d80;
+}
+
+/* Register Link */
+nav{
+    margin-top:25px;
+    text-align:center;
+}
+
+nav a{
+    color:#0056b3;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Responsive */
+@media(max-width:900px){
+
+.reg-form{
+    width:95%;
+    height:auto;
+    flex-direction:column;
+}
+
+.about,
+.user-login{
+    width:100%;
+}
+
+.about{
+    padding:35px;
+}
+
+.user-login{
+    padding:35px;
+}
+
+.about h3{
+    font-size:30px;
+}
+
+}
